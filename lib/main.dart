@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lucifer/page/splash.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
 
-      home:  MyHomePage(),
+      home:  splash(),
     );
   }
 }
