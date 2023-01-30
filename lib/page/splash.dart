@@ -36,9 +36,9 @@ class _splashState extends State<splash> {
                width: 100,
              child: Image.asset('assets/logo.png'),
            ),
-           Container(
-             child:  Text("splash screen",style: TextStyle(color: Colors.black,fontSize: 30)),
-           )
+           // Container(
+           //   child:  Text("splash screen",style: TextStyle(color: Colors.black,fontSize: 30)),
+           // )
          ],
        ),
 
